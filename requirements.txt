@@ -1,0 +1,5 @@
+darts
+matplotlib
+requests
+pytorch-lightning
+pandas==2.2.2
