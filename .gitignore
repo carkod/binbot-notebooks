@@ -1,0 +1,38 @@
+.venv/
+.mypy_cache/
+
+# Ignore Jupyter Notebook checkpoints and temporary files
+.ipynb_checkpoints/
+*.ipynb~
+# VSCode workspace settings
+.vscode/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# MacOS system files
+.DS_Store
+# Environment files
+.env
+.venv/
+venv/
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.npy
+*.npz
+# Logs
+*.log
+# Jupyter runtime
+.jupyter/
+# Darts cache (if used)
+.darts/
