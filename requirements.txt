@@ -1,4 +1,4 @@
-darts
+darts[all]
 matplotlib
 requests
 pytorch-lightning
