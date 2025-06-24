@@ -17,19 +17,7 @@ __pycache__/
 .env
 .venv/
 venv/
-# Data files
-*.csv
-*.tsv
-*.xls
-*.xlsx
-*.h5
-*.hdf5
-*.parquet
-*.feather
-*.pkl
-*.joblib
-*.npy
-*.npz
+
 # Logs
 *.log
 # Jupyter runtime
