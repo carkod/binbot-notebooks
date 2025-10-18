@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/mwouts/jupytext
+    rev: v1.16.1  # pin a current stable version
+    hooks:
+      - id: jupytext
+        name: jupytext-sync
+        args: ["--sync"]  # keeps .ipynb and .py paired
+        files: "\\.ipynb$"
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.6.1
+    hooks:
+      - id: nbstripout
+        name: strip-notebook-output
+        files: "\\.ipynb$"
+        # remove if you want outputs kept
